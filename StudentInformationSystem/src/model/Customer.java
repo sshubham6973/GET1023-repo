@@ -1,9 +1,21 @@
 package model;
 
+import java.time.LocalDate;
+
 public class Customer {
 
 	int customerId;
 	String customerName;
+	LocalDate date;
+	
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
 
 	public int getCustomerId() {
 		return customerId;
