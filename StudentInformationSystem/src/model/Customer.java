@@ -2,12 +2,23 @@ package model;
 
 public class Customer {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int customerId;
-		String customerName;
+	int customerId;
+	String customerName;
 
-		
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
 	}
 
 }
